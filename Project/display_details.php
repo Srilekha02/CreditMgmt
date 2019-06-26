@@ -22,7 +22,7 @@
 
 		$name=$_POST["fromname"];
 	    $_SESSION['fromname']=$name;
-		$sql = "SELECT * FROM user where name='$name'";
+		$sql = "SELECT * FROM user where Name='$name'";
 		$result = mysqli_query($conn, $sql);
 
 		if (mysqli_num_rows($result) > 0) {
@@ -37,7 +37,7 @@
 		        	echo "</tr>";
 		        	echo "<tr>";
 		        		echo "<th>Name</th>";
-		        		echo "<td>".$row["name"]."</td>";
+		        		echo "<td>".$row["Name"]."</td>";
 		        	echo "</tr>";
 		        	echo "<tr>";
 		        		echo "<th>E-mail</th>";
