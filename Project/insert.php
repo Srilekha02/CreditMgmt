@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Insert</title>
 	<style type="text/css">
 		.box{
  			   width: 1050px;
