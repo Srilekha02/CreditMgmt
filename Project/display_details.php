@@ -12,7 +12,7 @@
 	<?php
 		$servername="db4free.net";
 		$username="srilekha1";
-		$pass="srilekha1";
+		$password="srilekha1";
 		$dbname="db_srilekha";
 		$conn=mysqli_connect($servername,$username,$pass,$dbname);
 
