@@ -6,10 +6,10 @@
 <body>
 
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "project";
+$servername="db4free.net";
+		$username="srilekha1";
+		$pass="srilekha1";
+		$dbname="db_srilekha";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
